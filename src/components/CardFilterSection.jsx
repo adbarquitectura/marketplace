@@ -76,7 +76,7 @@ const CardFilterSection = () => {
                         }).slice(0, 9).map((project, index) => {
                             return (
                                 <div key={index} className='card'>
-                                    <img style={{ width: '200px' }} src={project.photos[0].url} />
+                                    <img className='img-card'  src={project.photos[0].url} />
 
                                     <h4>{project.address}</h4>
                                     <p>{project.comuna}</p>
