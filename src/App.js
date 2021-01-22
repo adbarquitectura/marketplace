@@ -8,9 +8,6 @@ function App() {
     <div className="father-container">
       <NavBar />
       <CardFilterSection />
-
-      <h1>Prueba</h1>
-      <p>Probando texto</p>
     </div>
   );
 }

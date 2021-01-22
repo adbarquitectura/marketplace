@@ -1,0 +1,10 @@
+.card-filter-section{
+    width: 100%;
+}
+.card-section{
+    display: flex;
+    background-color: tomato;
+}
+.card-box{
+    width: 290px;
+}

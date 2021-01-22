@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import './CardFilterSection.css';
 
+import { Icon, InlineIcon } from '@iconify/react';
+import hospitalBed from '@iconify/icons-carbon/hospital-bed';
+import outlineBathtub from '@iconify/icons-ic/outline-bathtub';
+import carOutline from '@iconify/icons-ion/car-outline';
+import searchIcon from '@iconify/icons-feather/search';
 
 const CardFilterSection = () => {
     const [dataRealEstateList, setDataRealEstateList] = useState([]);
@@ -44,35 +50,55 @@ const CardFilterSection = () => {
 
     return (
 
-        <div >
-            <h2>Arriendos</h2>
+        <div className='card-filter-section'>
+            <h1 className='heading-display'>Encuentra un arriendo</h1>
+            <div>
+                <div>
+                    <input type='text' value={inputFilter} placeholder="Calle, comuna" onChange={(event) => updateInputFilter(event)}></input>
+                    <Icon icon={searchIcon} style={{ color: '#FFE7DC', fontSize: '30px' }} />
+                </div>
 
-            <input type='text' value={inputFilter} onChange={(event) => updateInputFilter(event)}></input>
+                <select value={inputSelectBedrooms} onChange={(event) => updateInputSelectBedroom(event)}>
+                    <option value="-1">Dormitorio</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
 
-            <select value={inputSelectBedrooms} onChange={(event) => updateInputSelectBedroom(event)}>
-                <option value="-1">Dormitorio</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
+            <p>En Houm no te pedimos aval y hacemos de tu vida algo maravilloso. Entérate de todos los beneficios al arrendar con nosotros.</p>
 
-            <div >
-                {
-                    dataRealEstateList.filter(realEstate => {
-                        return filterCriteria(realEstate);
-                    }).slice(0, 9).map((project, index) => {
-                        return (
-                            <div key={index}>
-                                <img style={{ width: '200px' }} src={project.photos[0].url} />
-                                <h4>{project.address}</h4>
-                                <p>{project.comuna}</p>
-                                <p>Dormitorios: {project.property_details[0].dormitorios}</p>
-                                <p>Baños: {project.property_details[0].banos}</p>
-                            </div>
-                        )
+            <div className='card-section'>
+                <div className='card-box'>
+                    {
+                        dataRealEstateList.filter(realEstate => {
+                            return filterCriteria(realEstate);
+                        }).slice(0, 9).map((project, index) => {
+                            return (
+                                <div key={index}>
+                                    <img style={{ width: '200px' }} src={project.photos[0].url} />
 
-                    })
-                }
+                                    <h4>{project.address}</h4>
+                                    <p>{project.comuna}</p>
+                                    <div>
+                                        <div><Icon icon={hospitalBed} style={{ color: '#999999', fontSize: '30px' }} />
+                                            <p>Dormitorios: {project.property_details[0].dormitorios}</p></div>
+                                        <div><Icon icon={outlineBathtub} style={{ color: '#999999', fontSize: '30px' }} />
+                                            <p>Baños: {project.property_details[0].banos}</p></div>
+                                        <div>
+                                            <Icon icon={carOutline} style={{ color: '#999999', fontSize: '30px' }} />
+                                            <p>Baños: {project.property_details[0].banos}</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            )
+
+                        })
+                    }
+                </div>
+
             </div>
 
         </div>
