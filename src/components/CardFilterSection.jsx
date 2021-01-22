@@ -76,22 +76,28 @@ const CardFilterSection = () => {
                         }).slice(0, 9).map((project, index) => {
                             return (
                                 <div key={index} className='card'>
-                                    <img style={{ width: '200px' }} src={project.photos[0].url} />
-
-                                    <h4>{project.address}</h4>
-                                    <p>{project.comuna}</p>
-                                    <div>
-                                        <div><Icon icon={hospitalBed} style={{ color: '#999999', fontSize: '30px' }} />
-                                            <p>Dormitorios: {project.property_details[0].dormitorios}</p></div>
-                                        <div><Icon icon={outlineBathtub} style={{ color: '#999999', fontSize: '30px' }} />
-                                            <p>Baños: {project.property_details[0].banos}</p></div>
-                                        <div>
-                                            <Icon icon={carOutline} style={{ color: '#999999', fontSize: '30px' }} />
-                                            <p>Baños: {project.property_details[0].banos}</p>
-                                        </div>
-
+                                    <img className='img-card' src={project.photos[0].url} />
+                                    <div className='text-card'>
+                                        <h4>{project.type}</h4><span>{project.property_details[0].m_construidos}m2</span>
                                     </div>
 
+                                    <div className='icons-card-box'>
+                                        <div className='icons-card'><Icon icon={hospitalBed} style={{ color: '#999999', fontSize: '30px' }} />
+                                            <h3>{project.property_details[0].dormitorios}</h3></div>
+                                        <div className='icons-card'><Icon icon={outlineBathtub} style={{ color: '#999999', fontSize: '30px' }} />
+                                            <h3>{project.property_details[0].banos}</h3></div>
+                                        <div className='icons-card'>
+                                            <Icon icon={carOutline} style={{ color: '#999999', fontSize: '30px' }} />
+                                            <h3>{project.property_details[0].banos}</h3>
+                                        </div>
+                                    </div>
+                                    <div className='name-card-box'>
+                                        <h2>{project.address}</h2>
+                                        <p>{project.comuna}</p>
+                                    </div>
+                                    <div className='value-card-box'>
+                                        <h3>${project.property_details[0].valor}</h3>
+                                    </div>
                                 </div>
                             )
 
