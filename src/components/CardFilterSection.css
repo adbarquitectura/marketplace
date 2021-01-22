@@ -47,10 +47,12 @@
 .icons-card h3 {
     color: #FF9C5B;
 }
-.name-card-box{
+
+.name-card-box {
     min-height: 100px;
     text-align: left;
 }
+
 .value-card-box {
     background: #FF9C5B;
     border-radius: 32px;
@@ -61,6 +63,15 @@
 
 .value-card-box h3 {
     color: white;
+}
+
+.text-card {
+    display: flex;
+    justify-content: start;
+}
+
+.text-card span {
+    color: #FF9C5B;
 }
 
 @media only screen and (min-width: 768px) {

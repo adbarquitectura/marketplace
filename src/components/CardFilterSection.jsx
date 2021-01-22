@@ -77,7 +77,7 @@ const CardFilterSection = () => {
                             return (
                                 <div key={index} className='card'>
                                     <img className='img-card' src={project.photos[0].url} />
-                                    <div className='icons-card-box'>
+                                    <div className='text-card'>
                                         <h4>{project.type}</h4><span>{project.property_details[0].m_construidos}m2</span>
                                     </div>
 
