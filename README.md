@@ -30,7 +30,7 @@ Para esta propuesta se crea prototipo de alta fidelidad en Figma.
 
 ![Prototipo Desktop ](./assets/imgReadme/desk2.png)
 
-[Protootipo interactivo Desktop](https://www.figma.com/proto/wQBhob6bOl9BOzyfRhnnLG/HOUM-Marketplace?node-id=0%3A3&scaling=min-zoom)
+[Prototipo interactivo Desktop](https://www.figma.com/proto/wQBhob6bOl9BOzyfRhnnLG/HOUM-Marketplace?node-id=0%3A3&scaling=min-zoom)
 
 ![Prototipo Mobile ](./assets/imgReadme/mobile1.png)
 
