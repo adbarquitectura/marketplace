@@ -5,34 +5,38 @@
   box-sizing: border-box;
   overflow-y: hidden;
   overflow-x: hidden;
-  background-color: lawngreen;
+  background-color: #FBFBFB;
+}
+
+h1 .heading-display {
+  font-size: 30px;
+  font-family: 'Quicksand';
+  color: #2D303F;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 26px;
   font-family: 'Quicksand';
-  color: #ffffff;
+  color: #2D303F;
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 300;
-  color: #ffffff;
+  font-size: 22px;
+  color: #2D303F;
   font-family: 'Quicksand';
-  letter-spacing: 8px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 h3 {
-  font-size: 30px;
-  color: #4d4d4d;
+  font-size: 18px;
+  color: #2D303F;
   font-family: 'Quicksand';
 }
 
 h4 {
-  font-size: 20px;
-  color: #E97451;
+  font-size: 14px;
+  color: #2D303F;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 300;
@@ -40,19 +44,26 @@ h4 {
 }
 
 p {
-  font-size: 18px;
-  color: #ffffff;
+  font-size: 16px;
+  color: #2D303F;
   font-weight: 300;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  line-height: 25px;
   font-family: 'Raleway';
 }
 
 @media only screen and (min-width: 768px) {
-  .father-container {
-    background-color: pink;
+  h1 .heading-display {
+    font-size: 48px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 14px;
   }
 }
