@@ -1,11 +1,21 @@
 @media only screen and (min-width: 768px) {
     .card-filter-section {
         width: 100%;
+        padding-left: 80px;
+        padding-left: 80px;
+        box-sizing: border-box;
     }
     .card-section {
         display: flex;
+        width: 100%;
+        box-sizing: border-box;
     }
     .card-box {
-        width: 290px;
+        display: flex;
+    }
+    .card{
+        width: 100%;
+        display: flex;
+        background-color: tomato;
     }
 }

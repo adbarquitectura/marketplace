@@ -66,7 +66,7 @@ const CardFilterSection = () => {
                 </select>
             </div>
 
-            <p>En Houm no te pedimos aval y hacemos de tu vida algo maravilloso. Entérate de todos los beneficios al arrendar con nosotros.</p>
+            <h4>En Houm no te pedimos aval y hacemos de tu vida algo maravilloso. Entérate de todos los beneficios al arrendar con nosotros.</h4>
 
             <div className='card-section'>
                 <div className='card-box'>
@@ -75,7 +75,7 @@ const CardFilterSection = () => {
                             return filterCriteria(realEstate);
                         }).slice(0, 9).map((project, index) => {
                             return (
-                                <div key={index}>
+                                <div key={index} className='card'>
                                     <img style={{ width: '200px' }} src={project.photos[0].url} />
 
                                     <h4>{project.address}</h4>
