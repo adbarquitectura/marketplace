@@ -34,4 +34,4 @@ Para esta propuesta se crea prototipo de alta fidelidad en Figma.
 
 ![Prototipo Mobile ](./assets/imgReadme/mobile1.png)
 
-[Protootipo interactivo Mobile](https://www.figma.com/proto/wQBhob6bOl9BOzyfRhnnLG/HOUM-Marketplace?node-id=26%3A1&scaling=scale-down)
+[Prototipo interactivo Mobile](https://www.figma.com/proto/wQBhob6bOl9BOzyfRhnnLG/HOUM-Marketplace?node-id=26%3A1&scaling=scale-down)
