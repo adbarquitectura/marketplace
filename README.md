@@ -24,8 +24,8 @@ Utilizando la herramienta Trello, se planificaron todos las issuesy milestones n
 
 Para esta propuesta se crea prototipo de alta fidelidad en Figma.
 [Figma](https://www.figma.com/file/wQBhob6bOl9BOzyfRhnnLG/HOUM-Marketplace?node-id=0%3A1)
-![Prototipo Desktop ](./src/assets/imgReadme/desk-1.jpg)
-![Prototipo Desktop ](./src/assets/imgReadme/desk-2.jpg)
+![Prototipo Desktop ](./assets/imgReadme/desk-1.jpg)
+![Prototipo Desktop ](./assets/imgReadme/desk-2.jpg)
 [Protootipo interactivo Desktop](https://www.figma.com/proto/wQBhob6bOl9BOzyfRhnnLG/HOUM-Marketplace?node-id=0%3A3&scaling=min-zoom)
 ![Prototipo Mobile ](./assets/imgReadme/mobile1.jpg)
 [Protootipo interactivo Mobile](https://www.figma.com/proto/wQBhob6bOl9BOzyfRhnnLG/HOUM-Marketplace?node-id=26%3A1&scaling=scale-down)
