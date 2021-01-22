@@ -1,21 +1,29 @@
+.card-filter-section {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+
+.card-section {
+    display: flex;
+}
+
+.card-box {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+}
+
 @media only screen and (min-width: 768px) {
     .card-filter-section {
-        width: 100%;
         padding-left: 80px;
-        padding-left: 80px;
-        box-sizing: border-box;
-    }
-    .card-section {
-        display: flex;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    .card-box {
-        display: flex;
-    }
-    .card{
-        width: 100%;
-        display: flex;
-        background-color: tomato;
+        padding-right: 80px;
+        margin-top: 150px;
     }
 }
