@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/adbarquitectura.github.io/marketplace/static/css/main.8cf94360.chunk.css",
-    "main.js": "/adbarquitectura.github.io/marketplace/static/js/main.1481d394.chunk.js",
-    "main.js.map": "/adbarquitectura.github.io/marketplace/static/js/main.1481d394.chunk.js.map",
-    "runtime-main.js": "/adbarquitectura.github.io/marketplace/static/js/runtime-main.e65badff.js",
-    "runtime-main.js.map": "/adbarquitectura.github.io/marketplace/static/js/runtime-main.e65badff.js.map",
-    "static/js/2.747ba48d.chunk.js": "/adbarquitectura.github.io/marketplace/static/js/2.747ba48d.chunk.js",
-    "static/js/2.747ba48d.chunk.js.map": "/adbarquitectura.github.io/marketplace/static/js/2.747ba48d.chunk.js.map",
-    "static/js/3.74691c2a.chunk.js": "/adbarquitectura.github.io/marketplace/static/js/3.74691c2a.chunk.js",
-    "static/js/3.74691c2a.chunk.js.map": "/adbarquitectura.github.io/marketplace/static/js/3.74691c2a.chunk.js.map",
-    "index.html": "/adbarquitectura.github.io/marketplace/index.html",
-    "static/css/main.8cf94360.chunk.css.map": "/adbarquitectura.github.io/marketplace/static/css/main.8cf94360.chunk.css.map",
-    "static/js/2.747ba48d.chunk.js.LICENSE.txt": "/adbarquitectura.github.io/marketplace/static/js/2.747ba48d.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/adbarquitectura.github.io/marketplace/static/media/logo.6ce24c58.svg"
+    "main.css": "/marketplace/static/css/main.8cf94360.chunk.css",
+    "main.js": "/marketplace/static/js/main.1481d394.chunk.js",
+    "main.js.map": "/marketplace/static/js/main.1481d394.chunk.js.map",
+    "runtime-main.js": "/marketplace/static/js/runtime-main.32c20f66.js",
+    "runtime-main.js.map": "/marketplace/static/js/runtime-main.32c20f66.js.map",
+    "static/js/2.747ba48d.chunk.js": "/marketplace/static/js/2.747ba48d.chunk.js",
+    "static/js/2.747ba48d.chunk.js.map": "/marketplace/static/js/2.747ba48d.chunk.js.map",
+    "static/js/3.74691c2a.chunk.js": "/marketplace/static/js/3.74691c2a.chunk.js",
+    "static/js/3.74691c2a.chunk.js.map": "/marketplace/static/js/3.74691c2a.chunk.js.map",
+    "index.html": "/marketplace/index.html",
+    "static/css/main.8cf94360.chunk.css.map": "/marketplace/static/css/main.8cf94360.chunk.css.map",
+    "static/js/2.747ba48d.chunk.js.LICENSE.txt": "/marketplace/static/js/2.747ba48d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/marketplace/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e65badff.js",
+    "static/js/runtime-main.32c20f66.js",
     "static/js/2.747ba48d.chunk.js",
     "static/css/main.8cf94360.chunk.css",
     "static/js/main.1481d394.chunk.js"
